@@ -4,5 +4,6 @@ board.each do |position|
   if position == "X" || position == "O"
     turn_count += 1
   end
+end
   turn_counter
 end
